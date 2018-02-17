@@ -4,4 +4,5 @@
 proto_library(
     name = "all",
     srcs = glob(["*.proto"]),
+    proto_source_root = package_name(),
 )
